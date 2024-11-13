@@ -23,7 +23,7 @@ import {
   TooltipPlacement as AntdTooltipPlacement,
 } from 'antd/lib/tooltip';
 
-export type TooltipPlacement = AntdTooltipPlacement;
+export { TooltipProps, TooltipPlacement };
 
 export const Tooltip = (props: TooltipProps) => {
   const theme = useTheme();
