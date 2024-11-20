@@ -72,7 +72,7 @@ const defaultProps = {
   readOnly: false,
   resize: null,
   textAreaStyles: {},
-  tooltipText: null,
+  tooltipOptions: {},
 };
 
 class TextAreaControl extends Component {
