@@ -52,7 +52,7 @@ describe('Datasource control', () => {
     )
       .first()
       .focus();
-    cy.focused().clear();
+    cy.focused().clear({ force: true });
     cy.focused().type(`${newMetricName}{enter}`);
 
     cy.get('[data-test="datasource-modal-save"]').click();
